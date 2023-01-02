@@ -20,7 +20,7 @@ Route::get('/', function () {
 Route::get('/test', function () {
     // return '<h1 style="color:red;">test</h1>';
     return view(
-        'layout/default',
+        'Pages/test',
         [
             'title' => 'Laravel'
         ]
